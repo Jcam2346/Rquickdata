@@ -18,7 +18,7 @@
 #' @note Will result in error when filepath is given but csv or xlsx types are specified. For database connections, the ODBC driver you specify must be installed on the computer you are using. It also must have established a connection to the database. For more info see https://learn.microsoft.com/en-us/sql/connect/odbc/download-odbc-driver-for-sql-server?view=sql-server-ver16
 #'
 #' @examples ## Not run:
-#' @examples df = ultraread(filepath = "./encoding test.xlsx", type = "xlsx", sheetnum = 2, headed = TRUE)
+#' @examples df = ultraread(filepath = "./data/ABSDirectory.xlsx", type = "xlsx", sheetnum = 2, headed = TRUE)
 #' @examples df = ultraread(filepath = "./encoding test.csv", type = "csv", headed = TRUE, encoded = "latin1")
 #' @examples con = ultraread(server = "company.database.windows.net", database = "sales_db", uid = "user_x", pwd = "secret_password", port = 1433)
 #' @examples ##End(Not run)
