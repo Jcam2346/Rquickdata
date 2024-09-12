@@ -1,0 +1,3 @@
+checkABScodes = function(){
+  ABSDirectory
+}

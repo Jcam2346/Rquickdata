@@ -4,17 +4,20 @@ Version: 0.0.0.9000
 Authors@R: 
     person("James", "Campbell", email = "me@jamescampbell.site", role = c("aut", "cre"))
 Description: Create Dataframes from CSV, XLSX or Database Connections. Quickly Draw up Common Charts and Analysis
-License: use_proprietary_license("James Campbell")
+License: file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.2
 Imports: 
+    curl,
     DBI,
     dplyr,
     odbc,
-    RCurl,
     readxl,
     utils
 Suggests: 
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
+Depends: 
+    R (>= 2.10)
+LazyData: true
